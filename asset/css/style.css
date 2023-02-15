@@ -1,0 +1,43 @@
+.topnav {
+    height: 60px;
+}
+
+.leftnavcontainer {
+    padding: 0;
+}
+
+.leftnavbox {
+    background-color: #FFFFFF;
+    height: 100%;
+    font-size: 20px;
+    color: #000066;
+}
+
+
+.rightnavbox {
+    background-color: #FFFFFF;
+    color: #525199;
+    font-size: 25px;
+    text-align: right;
+    height: 100%;
+}
+
+.rightnavcontainer {
+    padding: 0;
+}
+
+.contentform {
+    height: calc(100vh - 60px);
+}
+
+.formcontainer {
+    padding: 0;
+}
+
+.formbox{
+    background-color: #F0F0F0;
+    color: #FF6200;
+    text-align: center;
+    height: 100%;
+    padding: 35px;
+}
