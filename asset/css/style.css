@@ -34,10 +34,43 @@
     padding: 0;
 }
 
-.formbox{
+.formbox {
     background-color: #F0F0F0;
     color: #FF6200;
     text-align: center;
     height: 100%;
-    padding: 35px;
+}
+
+.viewcontainer {
+    background: #FFFFFF;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+
+}
+
+p {
+    color: black;
+    border: 3px solid #FF6200;
+    border-radius: 5px;
+
+}
+
+input {
+    width: 100%;
+}
+
+.btncontainer button{
+    background: #FF6200;
+    color: #F0F0F0;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    height: 40px;
+    font-size: 19px;
+    font-weight: bold;
 }
