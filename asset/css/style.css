@@ -161,3 +161,26 @@ span {
 .flex-container>div {
     padding: 8px;
 }
+
+.header-content {
+
+    display: flex;
+      
+    /* flex-flow: row; */ 
+    flex-direction: row;  
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+  }
+
+  .header-content > div{
+   
+  }
+
+
+  .logo{ 
+    /* flex:0 1 auto; */
+    flex-grow:0;
+   
+   
+  }
