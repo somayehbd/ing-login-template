@@ -23,7 +23,7 @@
 }
 
 .rightnavcontainer {
-    padding: 0;
+    padding-right: 40px;
 }
 
 .contentform {
@@ -50,7 +50,7 @@
     height: 100%;
     top: 25px;
     bottom: 25px;
-    left: 500px;
+    left: 350px;
     right:500px ;
     position: relative;
 }
@@ -132,7 +132,7 @@ button:last-child {
 }
 
 
-.remember input:hover[type="checkbox"] {
+.remember input[type="checkbox"]:hover {
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
@@ -177,10 +177,44 @@ span {
    
   }
 
-
   .logo{ 
     /* flex:0 1 auto; */
     flex-grow:0;
-   
-   
+  }
+  .feedback{
+    outline:0;
+    color: #525199;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 4px;
+    border: 0;
+    background: transparent;
+    top: 5px;
+    position: relative;
+  }
+  button.feedback:hover {
+    outline:none;
+    border-radius: 8px;
+    border: 1px solid #525199;
+  }
+  
+  button.feedback:active {
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+  }
+
+  .lang{
+    color: #696969;
+    padding: 8px;
+    font-size: 1rem;
+    position: relative;
+    top: 5px;
+  }
+  .lang-nl{
+    border-right: 1px solid #000;
+  }
+  .feedback i{
+    margin: 5px;
+    position: relative;
+    top: 4px
   }
