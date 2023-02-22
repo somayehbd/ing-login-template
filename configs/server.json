@@ -4,7 +4,7 @@
   "name": "Ing template api",
   "endpointPrefix": "",
   "latency": 0,
-  "port": 3000,
+  "port": 3100,
   "hostname": "0.0.0.0",
   "folders": [],
   "routes": [
@@ -16,7 +16,7 @@
       "responses": [
         {
           "uuid": "0a7904c5-92bc-4d7d-94ba-ca27a4cc8833",
-          "body": "{\n  token: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzb21heWVoYmQiLCJpYXQiOjE2NzcwMTI0MTQsImV4cCI6MTcwODU0ODQxNCwiYXVkIjoiZ2l0aHViLmNvbS9zb21heWVoYmQiLCJzdWIiOiJzb2F5ZWhiZEBnbWFpbC5jb20iLCJHaXZlbk5hbWUiOiJTb21heWVoIiwiU3VybmFtZSI6IkViYWR5IiwiRW1haWwiOiJzb21heWVoYmRAZ21haWwuY29tIiwiUm9sZSI6IkZyb250ZW5kIERldmVsb2VyIn0.Xb_URa7npuJlL1rOqSNsqkbNA-voSejo1oHPr6UBadw\",\n  success: \"true\"\n}",
+          "body": "{\n  \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzb21heWVoYmQiLCJpYXQiOjE2NzcwMTI0MTQsImV4cCI6MTcwODU0ODQxNCwiYXVkIjoiZ2l0aHViLmNvbS9zb21heWVoYmQiLCJzdWIiOiJzb2F5ZWhiZEBnbWFpbC5jb20iLCJHaXZlbk5hbWUiOiJTb21heWVoIiwiU3VybmFtZSI6IkViYWR5IiwiRW1haWwiOiJzb21heWVoYmRAZ21haWwuY29tIiwiUm9sZSI6IkZyb250ZW5kIERldmVsb2VyIn0.Xb_URa7npuJlL1rOqSNsqkbNA-voSejo1oHPr6UBadw\",\n  \"success\": \"true\"\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
