@@ -1,16 +1,12 @@
-const form = document.getElementById('form')
-const username = document.getElementById('username')
-const password = document.getElementById('pw')
-
-const handleform = (e) => {
-    e.preventDefault()
-    console.log(username.value)
-    console.log(password.value)
-
-    if (username.value === "somi" && password.value === "123") {
-        alert('successfully complete')
-    }
-
-}
-form.addEventListener('submit', handleform)
+var requestOptions = {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+        "username": "demo",
+        "password": "123456"
+    }),
+    redirect: 'follow'
+};
+fetch('http://localhost:3000/login', requestOptions)
+    .then(response => { console.log(response) })
 
