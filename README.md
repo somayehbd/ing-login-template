@@ -2,7 +2,17 @@
 
 ![](./docs/screenshot.png)
 
-## Starting Mockoon server
+## Usage
+
+### Install nodejs
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+### Install mockoon-cli
+```
+npm install -g @mockoon/cli
+```
+
+### Start mockoon server
 ```
 mockoon-cli start -p 3100 -d https://raw.githubusercontent.com/somayehbd/ing-login-template/main/configs/server.json
 ```
