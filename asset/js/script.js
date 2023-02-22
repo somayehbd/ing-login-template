@@ -7,6 +7,6 @@ var requestOptions = {
     }),
     redirect: 'follow'
 };
-fetch('http://localhost:3000/login', requestOptions)
+fetch('http://localhost:3100/login', requestOptions)
     .then(response => { console.log(response) })
 
