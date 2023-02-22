@@ -16,3 +16,15 @@ npm install -g @mockoon/cli
 ```
 mockoon-cli start -p 3100 -d https://raw.githubusercontent.com/somayehbd/ing-login-template/main/configs/server.json
 ```
+
+## Background information
+
+### List mockoon servers
+```
+mockoon-cli list
+```
+
+### Stop a server
+```
+mockoon-cli stop {SERVER_ID}
+```
