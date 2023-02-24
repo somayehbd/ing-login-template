@@ -6,14 +6,6 @@
     padding: 0;
 }
 
-.leftnavbox {
-    background-color: #FFFFFF;
-    height: 100%;
-    font-size: 20px;
-    color: #000066;
-}
-
-
 .rightnavbox {
     background-color: #FFFFFF;
     color: #525199;
@@ -26,10 +18,6 @@
     padding-right: 40px;
 }
 
-.contentform {
-    min-height: calc(100vh - 60px);
-}
-
 .formcontainer {
     padding: 0;
 }
@@ -37,7 +25,7 @@
 .formbox {
     background-color: #F0F0F0;
     text-align: center;
-    min-height: 100%;
+    /* min-height: 100%; */
 }
 
 .viewcontainer {
@@ -83,7 +71,6 @@ input:focus {
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
-
 }
 
 .btncontainer button {
@@ -118,7 +105,6 @@ button:last-child {
     font-size: 20px;
     line-height: 24px;
     font-weight: normal;
-
 }
 
 .remember {
@@ -162,24 +148,12 @@ span {
     padding: 8px;
 }
 
-.header-content {
-
-    display: flex;
-      
-    /* flex-flow: row; */ 
-    flex-direction: row;  
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-  }
-
-  .header-content > div{
-   
-  }
-
   .logo{ 
     /* flex:0 1 auto; */
     flex-grow:0;
+    position: relative;
+    left: 10px;
+    top: 10px;
   }
   .feedback{
     outline:0;
@@ -210,9 +184,11 @@ span {
     position: relative;
     top: 5px;
   }
+
   .lang-nl{
     border-right: 1px solid #000;
   }
+
   .feedback i{
     margin: 5px;
     position: relative;
