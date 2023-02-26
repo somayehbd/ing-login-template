@@ -17,6 +17,20 @@ npm install -g @mockoon/cli
 mockoon-cli start -p 3100 -d https://raw.githubusercontent.com/somayehbd/ing-login-template/main/configs/server.json
 ```
 
+### Login information
+
+#### Personal Account
+
+Username: `demo`
+
+Password: `123456`
+
+#### Business Account
+
+Username: `demo`
+
+Password: `demo`
+
 ## Background information
 
 ### List mockoon servers
