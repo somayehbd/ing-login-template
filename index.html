@@ -34,99 +34,104 @@
             <div class="col-md-12 formcontainer">
                 <div class="formbox">
                     <div class="viewcontainer" id="form">
-                        <form id="form">
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <a class="nav-item nav-link active" id="nav-Personal-tab" data-toggle="tab"
-                                        href="#nav-Personal" role="tab" aria-controls="nav-Personal"
-                                        aria-selected="true">Personal</a>
-                                    <a class="nav-item nav-link" id="nav-Business-tab" data-toggle="tab"
-                                        href="#nav-Business" role="tab" aria-controls="nav-Business"
-                                        aria-selected="false">Business</a>
-                                </div>
-                            </nav>
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-Personal" role="tabpanel"
-                                    aria-labelledby="nav-Personal-tab">
-                                    <div class="flex-container">
-
-                                        <div class="notification">
-                                            <i class="fa-solid fa-triangle-exclamation fa-2xl"></i>
-                                        </div>
-                                        <div class="Warning-message">
-                                            <p>Did you know that fraudsters impersonate bank employees? They may call
-                                                you and
-                                                claim something is wrong with your debit card, and then send someone to
-                                                your
-                                                house to collect it. Hang up the phone. And never give your debit card
-                                                away.
-                                                <a href="https://www.ing.nl/de-ing/veilig-bankieren/english">This is how
-                                                    you
-                                                    keep fraudsters at bay.</a>
-                                            </p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="formdata">
-                                        <h1>Log in to Mijn ING</h1>
-                                        <label for="Username">Username: </label>
-                                        <input type="text" id="username" name="username" />
-                                        <label for="pw">Password </label>
-                                        <input type="password" id="pw" name="pw" />
-                                        <div class="remember">
-                                            <input type="checkbox" id="ck" name="ck" class="test" />
-                                            <span>Remember my username</span>
-                                        </div>
-                                    </div>
-                                    <div class="btncontainer">
-                                        <button id="submit" type="submit">log in</button>
-                                        <button type="button">Lost your login details?</button>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav-Business" role="tabpanel"
-                                    aria-labelledby="nav-Business-tab"><div class="flex-container">
-
-                                        <div class="notification">
-                                            <i class="fa-solid fa-triangle-exclamation fa-2xl"></i>
-                                        </div>
-                                        <div class="Warning-message">
-                                            <p>Did you know that fraudsters impersonate bank employees? They may call
-                                                you and
-                                                claim something is wrong with your debit card, and then send someone to
-                                                your
-                                                house to collect it. Hang up the phone. And never give your debit card
-                                                away.
-                                                <a href="https://www.ing.nl/de-ing/veilig-bankieren/english">This is how
-                                                    you
-                                                    keep fraudsters at bay.</a>
-                                            </p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="formdata">
-                                        <h1>Log in to Mijn ING</h1>
-                                        <label for="Username">Username: </label>
-                                        <input type="text" id="username" name="username" />
-                                        <label for="pw">Password </label>
-                                        <input type="password" id="pw" name="pw" />
-                                        <div class="remember">
-                                            <input type="checkbox" id="ck" name="ck" class="test" />
-                                            <span>Remember my username</span>
-                                        </div>
-                                    </div>
-                                    <div class="btncontainer">
-                                        <button id="submit" type="submit">log in</button>
-                                        <button type="button">Lost your login details?</button>
-                                    </div>
-                                </div></div>
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-Personal-tab" data-toggle="tab"
+                                    href="#nav-Personal" role="tab" aria-controls="nav-Personal"
+                                    aria-selected="true">Personal</a>
+                                <a class="nav-item nav-link" id="nav-Business-tab" data-toggle="tab"
+                                    href="#nav-Business" role="tab" aria-controls="nav-Business"
+                                    aria-selected="false">Business</a>
                             </div>
-                        </form>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-Personal" role="tabpanel"
+                                aria-labelledby="nav-Personal-tab">
+                                <div class="flex-container">
+
+                                    <div class="notification">
+                                        <i class="fa-solid fa-triangle-exclamation fa-2xl"></i>
+                                    </div>
+                                    <div class="Warning-message">
+                                        <p>Did you know that fraudsters impersonate bank employees? They may call
+                                            you and
+                                            claim something is wrong with your debit card, and then send someone to
+                                            your
+                                            house to collect it. Hang up the phone. And never give your debit card
+                                            away.
+                                            <a href="https://www.ing.nl/de-ing/veilig-bankieren/english">This is how
+                                                you
+                                                keep fraudsters at bay.</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <form id="personalForm">
+                                    <div class="formdata">
+                                        <h1>Log in to Mijn ING</h1>
+                                        <label for="Username">Username: </label>
+                                        <input type="text" name="username" />
+                                        <label for="password">Password </label>
+                                        <input type="password" name="password" />
+                                        <div class="remember">
+                                            <input type="checkbox" name="remember" class="test" />
+                                            <span>Remember my username</span>
+                                        </div>
+                                    </div>
+                                    <div class="btncontainer">
+                                        <button type="submit">log in</button>
+                                        <button type="button">Lost your login details?</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="tab-pane fade" id="nav-Business" role="tabpanel"
+                                aria-labelledby="nav-Business-tab">
+                                <div class="flex-container">
+
+                                    <div class="notification">
+                                        <i class="fa-solid fa-triangle-exclamation fa-2xl"></i>
+                                    </div>
+                                    <div class="Warning-message">
+                                        <p>Did you know that fraudsters impersonate bank employees? They may call
+                                            you and
+                                            claim something is wrong with your debit card, and then send someone to
+                                            your
+                                            house to collect it. Hang up the phone. And never give your debit card
+                                            away.
+                                            <a href="https://www.ing.nl/de-ing/veilig-bankieren/english">This is how
+                                                you
+                                                keep fraudsters at bay.</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <form id="businessForm">
+                                    <div class="formdata">
+                                        <h1>Log in to Mijn ING</h1>
+                                        <label for="Username">Username: </label>
+                                        <input type="text" name="username" />
+                                        <label for="password">Password </label>
+                                        <input type="password" name="password" />
+                                        <div class="remember">
+                                            <input type="checkbox" name="remember" class="test" />
+                                            <span>Remember my username</span>
+                                        </div>
+                                    </div>
+                                    <div class="btncontainer">
+                                        <button type="submit">log in</button>
+                                        <button type="button">Lost your login details?</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- main script -->

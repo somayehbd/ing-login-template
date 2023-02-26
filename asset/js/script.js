@@ -1,10 +1,9 @@
-const form = document.getElementById('form')
-const username = document.getElementById('username')
-const password = document.getElementById('pw')
-
 const handleform = (e) => {
     e.preventDefault()
 
+    const form = document.getElementById('personalForm')
+    const username = form.username
+    const password = form.password
 
     myHeaders = { "Content-Type": "application/json" };
 
@@ -19,7 +18,7 @@ const handleform = (e) => {
         body: raw,
         redirect: 'follow'
     };
-    
+
     fetch('http://localhost:3100/personal/login', requestOptions)
         .then(response => {
             console.log(response);
