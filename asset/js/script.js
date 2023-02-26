@@ -20,7 +20,7 @@ const handleform = (e) => {
         redirect: 'follow'
     };
     
-    fetch('http://localhost:3100/login', requestOptions)
+    fetch('http://localhost:3100/personal/login', requestOptions)
         .then(response => {
             console.log(response);
             return response.json();

@@ -12,7 +12,7 @@
       "uuid": "d6735fc9-ffc2-489c-824f-1f665cbae94b",
       "documentation": "",
       "method": "post",
-      "endpoint": "login",
+      "endpoint": "personal/login",
       "responses": [
         {
           "uuid": "0a7904c5-92bc-4d7d-94ba-ca27a4cc8833",
